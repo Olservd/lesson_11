@@ -1,0 +1,270 @@
+.wrapper {
+   overflow: hidden;
+   position: relative;
+   min-height: 100vh;
+   height: 100vh;
+}
+.header {
+}
+.main {
+   height: 1000px;
+}
+.content {
+   background: url(../img/fon.jpg) no-repeat center center;
+   background-size: cover;
+   height: 100%;
+}
+.content__image {
+}
+.image {
+}
+.image__one {
+}
+.sky {
+}
+.sky__sun img {
+   position: absolute;
+   top: 0;
+   right: 10%;
+   width: 16%;
+   z-index: 2;
+   transition: transform 0.8s ease-in-out;
+}
+.sky__cloud img {
+   position: absolute;
+   top: 0;
+   right: 22%;
+   width: 24%;
+   transition: transform 0.8s ease-in-out;
+}
+.sky__cloude img {
+   position: absolute;
+   top: 25%;
+   left: 30%;
+   width: 22%;
+   transition: transform 0.8s ease-in-out;
+}
+.sky__cloude img:hover,
+.sky__cloud img:hover,
+.sky__sun img:hover {
+   transform: rotate(180deg);
+}
+.image__two {
+}
+.center {
+}
+.center__tree .tree {
+   position: absolute;
+   bottom: 12%;
+   left: 16%;
+   width: 22%;
+   z-index: 2;
+}
+.center__tree:hover .wini {
+   position: absolute;
+   bottom: 12%;
+   left: 22.5%;
+   width: 5%;
+   transform: rotate(-32deg);
+   transition: left 1s linear;
+}
+.wini {
+   position: absolute;
+   bottom: 13%;
+   left: 24.5%;
+   width: 5%;
+   z-index: 1;
+}
+.center__flower .flower {
+   position: absolute;
+   bottom: 27%;
+   right: 34%;
+   width: 4%;
+}
+.center__flower:hover .zajka {
+   position: absolute;
+   bottom: 23%;
+   right: 38%;
+   transform: scale(3);
+   transition: all 2s ease;
+   opacity: 1;
+   visibility: visible;
+}
+.zajka {
+   position: absolute;
+   bottom: 20%;
+   right: 38%;
+   width: 3%;
+   opacity: 0;
+   visibility: hidden;
+}
+.center__butterfly .butterfly {
+   position: absolute;
+   bottom: 28%;
+   right: 6%;
+   width: 13%;
+}
+.center__butterfly:hover .shariki {
+   position: absolute;
+   top: 0%;
+   left: 5%;
+   opacity: 1;
+   visibility: visible;
+   transform: scale(1.1);
+   transition: all 5s ease;
+}
+.shariki {
+   position: absolute;
+   top: 30%;
+   right: 15%;
+   width: 87%;
+   z-index: 12;
+   opacity: 0;
+   visibility: hidden;
+}
+.image__three {
+}
+.down__grass .grass {
+   position: absolute;
+   bottom: -1%;
+   left: -1%;
+   width: 40%;
+   z-index: 2;
+}
+.down__grass:hover .babulya {
+   position: absolute;
+   bottom: 0;
+   left: 36%;
+   transition: left 1s linear;
+}
+.babulya {
+   position: absolute;
+   bottom: 0;
+   left: 28%;
+   width: 9%;
+   z-index: 1;
+}
+
+.down__grasse .grasse {
+   position: absolute;
+   bottom: 0;
+   right: 32%;
+   width: 21%;
+   z-index: 2;
+}
+.down__grasse:hover .bemby {
+   position: absolute;
+   bottom: 4%;
+   left: 53%;
+   opacity: 1;
+   transition: all 3s ease;
+   z-index: 3;
+}
+.bemby {
+   position: absolute;
+   bottom: 4%;
+   left: 53%;
+   width: 8%;
+   opacity: 0;
+   z-index: 1;
+}
+.image__four {
+   position: relative;
+}
+.flower-handmade {
+   position: absolute;
+   top: 34%;
+   left: 11%;
+   z-index: 3;
+}
+.flower-handmade:hover {
+   transform: rotate(360deg);
+   transition: all 5s ease;
+}
+.flower__centre {
+   background-color: rgb(151, 94, 14);
+   border-radius: 50%;
+   z-index: 10;
+   position: absolute;
+   width: 100px;
+   height: 100px;
+   top: 0;
+   right: 0;
+}
+.flower__one {
+   position: absolute;
+   bottom: 0;
+   right: -31px;
+   transform: rotate(155deg);
+   width: 100px;
+   height: 100px;
+   background-color: rgb(240, 13, 13);
+   border-radius: 100% 0% 52% 48% / 48% 0% 100% 52%;
+}
+.flower__two {
+   position: absolute;
+   top: -37px;
+   left: 0;
+   transform: rotate(198deg);
+   width: 100px;
+   height: 100px;
+   background-color: rgb(241, 245, 3);
+   border-radius: 100% 0% 52% 48% / 48% 0% 100% 52%;
+}
+.flower__three {
+   position: absolute;
+   top: 56px;
+   left: 0;
+   transform: rotate(253deg);
+   width: 100px;
+   height: 100px;
+   background-color: rgb(11, 251, 235);
+   border-radius: 100% 0% 52% 48% / 48% 0% 100% 52%;
+}
+.flower__four {
+   position: absolute;
+   top: 104px;
+   right: -14px;
+   transform: rotate(-53deg);
+   width: 100px;
+   height: 100px;
+   background-color: rgb(240 132 13);
+   border-radius: 100% 0% 52% 48% / 48% 0% 100% 52%;
+}
+.flower__five {
+   position: absolute;
+   top: 79px;
+   right: 72px;
+   width: 100px;
+   height: 100px;
+   background-color: rgb(240, 13, 236);
+   border-radius: 100% 0% 52% 48% / 48% 0% 100% 52%;
+}
+.flower__six {
+   position: absolute;
+   bottom: -20px;
+   right: 72px;
+   transform: rotate(87deg);
+   width: 100px;
+   height: 100px;
+   background-color: rgb(249 93 140);
+   border-radius: 100% 0% 52% 48% / 48% 0% 100% 52%;
+}
+.flower__seven {
+   position: absolute;
+   top: 0;
+   right: 106px;
+   width: 100px;
+   height: 100px;
+   background-color: rgb(13, 240, 119);
+   border-radius: 100% 0% 52% 48% / 48% 0% 100% 52%;
+   transform: rotate(44deg);
+}
+.all {
+   width: 50px;
+   height: 50px;
+   background-color: black;
+}
+
+.footer {
+}
